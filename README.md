@@ -13,14 +13,14 @@ Components of GitHub Actions:
           └── 📝 Step  <- The Cooking Tasks (Sequential commands)
                └── 🛠️ Action <- The Kitchen Tools (Reusable shortcuts)
 ```
-1. <u>Workflow<u>:
+1. <u>**Workflow**<u>:
    . Technical Definition: An automated, top-level process configured in your repository using a YAML file. It defines the overall automation        pipeline, environment variables, and execution architecture.
    . Location: Stored in the (.github/workflows/) directory.
    . Kitchen Analogy: The Recipe Book. It is the master blueprint detailing exactly how a specific dish (your software process) is constructed from start to finish.
-2. Event
+2. <u>**Event**<u>
    . Technical Definition: A specific activity or webhook that triggers a workflow run. Events can be repository-driven (push, pull_request), manual (workflow_dispatch), or time-based (schedule via cron syntax).
    . Kitchen Analogy: The Customer’s Order. It is the spark that alerts the kitchen to start cooking. No order means the kitchen sits idle.
-3. Job
+3. <u>**Job<u>**
    . Technical Definition: A set of sequential steps executed on the same fresh instance of a virtual machine or container. By default, multiple jobs run concurrently (in parallel) unless specified otherwise via dependency mapping (needs: keyword).
    . Kitchen Analogy: The Kitchen Station. A dedicated area (like the Grill Station or Pastry Station) operating independently. Multiple stations cook different parts of the meal simultaneously to save time.
 4. Runner
