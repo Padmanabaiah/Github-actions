@@ -4,7 +4,7 @@ This project is about Github Actions Implementations for Applications to deploy 
 First we will cover the basics of Github Actions before proceeding with actual implementation of foundation level knowledge in GitHub Actions.
 
 You should have a repository in your github account created and when you open repository and click on the actions. It will redirect you to GH Actions page.
-
+```text
 Components of GitHub Actions:
 📁 .github/workflows/
 └── 📋 workflow.yml  <- The Recipe Book
@@ -12,7 +12,7 @@ Components of GitHub Actions:
      └── 👨‍🍳 Job       <- The Kitchen Station (Isolated environment)
           └── 📝 Step  <- The Cooking Tasks (Sequential commands)
                └── 🛠️ Action <- The Kitchen Tools (Reusable shortcuts)
-
+```
 1. <u>Workflow<u>:
    . Technical Definition: An automated, top-level process configured in your repository using a YAML file. It defines the overall automation        pipeline, environment variables, and execution architecture.
    . Location: Stored in the (.github/workflows/) directory.
